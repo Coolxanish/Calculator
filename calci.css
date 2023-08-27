@@ -1,0 +1,56 @@
+body {
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    justify-content: end;
+}
+
+.numbers .col1 {
+    margin-right: -5px;
+}
+
+.col2 {
+    margin-right: -5px;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.flex-calci {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background-color: rgb(255, 255, 255);
+    width: 9.9em;
+}
+
+.firstColumn {
+    display: flex;
+    justify-content: end;
+}
+
+.firstColumn button{
+    width: 9.9em
+}
+
+.button-size {
+    width: 3em;
+    background-color: rgba(136, 245, 239, 0.973);
+}
+
+.screen-text {
+    width: 11.6em;    
+    padding: 4em 0;
+    border: 2px solid black;
+
+}
+
